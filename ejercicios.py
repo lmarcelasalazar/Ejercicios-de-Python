@@ -24,6 +24,8 @@ total_pagar_dos=int(cuota_mensual*2)
 print("total pagar en dos meses",total_pagar_dos)
 total_pagar_nueve=int((cuota_mensual*9))
 print("Total pagar en nueve meses",total_pagar_nueve)
+interes_mensual=int((cuota_mensual*12))
+print("Total pagar intereses",interes_mensual)
 
 #vPrestamo=input(float("Ingrese valor del prestamo"))
 #cmensual=(vPrestamo/12)*0.018
