@@ -52,16 +52,29 @@ edad=0
 altura=0
 peso=0
 imc=0
-while(cont<2):
+while(cont<5):
     edad=int(input("Ingrese su edad: "))
     peso=int(input("Ingrese su peso: "))
     altura=float(input("Ingrese su estatura: "))
+    cont=cont+1
     cont1=0
-while(cont1<3):
-    cont1=cont1+1
-    imc=peso*altura
-    
-print("su imc es de: ",imc)
+    while(cont1<3):
+        cont1=cont1+1
+        imc=peso/altura**2
+    if (imc >= 0) and (imc <= 18.5):
+        print("Estas bajo de peso!")
+    elif(imc>=18.5) and (imc<=24.9):
+        print("Tu peso es normal!")
+    elif(imc>=25.0) and (imc<=29.9):
+        print("Tienes sobrepeso!")
+    else:
+        print("Estas obeso!")
+        cont=cont1+1
+
+
+
+        
+
     
     
 

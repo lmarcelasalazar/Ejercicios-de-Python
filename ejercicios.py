@@ -38,7 +38,7 @@ print("Total pagar intereses",interes_mensual)
 #else:
  #   pagar_servicio=(15000*0.19)+15000
 #print("el servicio que selecciono",servicio)
-#5print("el valor a pagar por el servicio es: ",pagar_servicio)
+#print("el valor a pagar por el servicio es: ",pagar_servicio)
 
 #producto=input("ingrese producto: ")
 #if producto="lacteos":
