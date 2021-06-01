@@ -5,6 +5,7 @@
 #     total_creditos+=creditos
 # print('el total de creditos es ',total_creditos)
 
+
 # llenar un diccionario a traves de un ciclo
 
 matricula=()
